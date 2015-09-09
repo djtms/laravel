@@ -1,0 +1,52 @@
+session_start();
+$array1 = array(
+'product_title' => 'Dell Inspiron N4110',
+'qty' => 1,
+'price' => '$300.00'
+);
+
+$array2 = array(
+'product_title' => 'Samsung Galaxy S5',
+'qty' => 3,
+'price' => '$200.00'
+);
+$array3 = array(
+'product_title' => 'Nokia Lumia 520',
+'qty' => 2,
+'price' => '$150.00'
+);
+$_SESSION['my_cart'][35] = $array1;
+$_SESSION['my_cart'][55] = $array2;
+$_SESSION['my_cart'][44] = $array3;
+echo "<pre>"; print_r($_SESSION['my_cart']); echo "</pre>";
+
+
+
+$.ajax({
+      url: 'php/ajax-follow.php',
+      type: 'post',
+      data: {'action': 'follow', 'userid': '11239528343'},
+      success: function(data, status) {
+        if(data == "ok") {
+          $('#followbtncontainer').html('<p><em>Following!</em></p>');
+          var numfollowers = parseInt($('#followercnt').html()) + 1;
+          $('#followercnt').html(numfollowers);
+        }
+      },
+      error: function(xhr, desc, err) {
+        console.log(xhr);
+        console.log("Details: " + desc + "\nError:" + err);
+      }
+    }); // end ajax call
+
+
+
+
+array( 'db' => 'name', 'dt' => 0 ),
+                        array( 'db' => 'slug',  'dt' => 1 ),
+                        array( 'db' => 'short_description',   'dt' => 2 ),
+                        array( 'db' => 'added_by',     'dt' => 3 ),
+                        array( 'db' => 'added_datetime',     'dt' => 4 ),
+                        array( 'db' => 'modified_by',     'dt' => 5 ),
+                        array( 'db' => 'modified_datetime',     'dt' => 6 ),
+                        array( 'db' => 'actions',     'dt' => 7 )

@@ -1,0 +1,1 @@
+Test call === ssid==>{{$ssid}}  current_nasid==> {{$current_nasid}}  nasid--> {{$nasid}}

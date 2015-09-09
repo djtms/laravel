@@ -1,0 +1,44 @@
+SELECT (Select sum(net_amount) from tbl_invoice_info where user_id=8 and customer_id=8) as total_buy, (Select sum(net_amount) from tbl_invoice_info where user_id=8 and customer_id=8 and mode_of_payment=1) as pay,(Select sum(net_amount) from tbl_invoice_info where user_id=8 and customer_id=8 and mode_of_payment=2) as due FROM `tbl_invoice_info` where user_id=8 and customer_id=8
+
+function invoice_print_pop(id){            
+            var printWindow = window.open("http://localhost/smartpos/public/print/posinvoice?invoice_id="+id, "_blank", "toolbar=yes, menubar=yes, scrollbars=yes, resizable=false, top=100, left=300, width=310, height=500";
+            //printWindow.print();  
+        }
+
+
+<link rel="stylesheet" type="text/css" media="print" href="http://localhost/smartpos/public/css/print.css" />
+
+Sir,
+I need one day leave for applying passport.
+If you permit me I will be greatful to you.
+Thanks,
+Ali Saheb.
+
+
+
+create table tbl_category(
+   category_id BIGINT(20) NOT NULL AUTO_INCREMENT,
+   name VARCHAR(255),
+   slug VARCHAR(255),
+   short_description TEXT,
+   added_by BIGINT(20),    
+   added_datetime TIMESTAMP,
+   modified_by BIGINT(20),
+   modified_datetime TIMESTAMP,
+   PRIMARY KEY ( category_id )
+)
+
+create table tbl_product(
+   product_id BIGINT(20) NOT NULL AUTO_INCREMENT,
+   name VARCHAR(255),   
+   description TEXT,
+   category_ids BIGINT(20),
+   price DECIMAL(15.2),
+   qty INT,
+   available_qty INT,    
+   added_by BIGINT(20),    
+   added_datetime TIMESTAMP,
+   modified_by BIGINT(20),
+   modified_datetime TIMESTAMP,
+   PRIMARY KEY ( product_id )
+)

@@ -1,0 +1,364 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+html,body {
+	height: 100%;
+	font-family: 'Lato', sans-serif !important;
+	color: #666;
+    font-size:13px;}
+
+p
+{
+	font-family: 'Lato', sans-serif;
+    font-size:14px;
+}
+.input-lg
+{
+   margin: 30px 0;
+   width:50%;
+
+}
+.icheck-list > li {
+  display: block;
+  text-align: left;
+  width: 50%;
+  margin: 0 150px;
+}
+#my_tab ul.nav-tabs li a {
+	color:#454545;}
+
+#accordion-step2
+{
+	text-align:left;
+}
+label
+{
+	font-size: 16px;
+    color: rgb(108, 108, 108);
+}
+.btn-white
+{
+  font-size: 16px;
+  color: #747A84;
+  padding: 8px 18px;
+}
+a { 
+	color: #3b5998;
+	color: #3A5795;
+}
+#main-menu li a
+{
+	font-size:16px;
+}
+#main-menu li i {
+  font-size: 26px !important;
+ }
+
+.caps-style
+{
+   /*text-transform: uppercase;
+   font-weight:700;
+   font-family:'Lato', sans-serif;
+   font-size:12px;
+   */
+}
+.page-container {
+	position:relative !important;
+}
+
+.login-page {
+	min-height: 100%;
+}
+
+.btn {
+	margin-bottom: 1px;
+	font-size: 15px;
+	padding: 10px 18px;
+}
+
+.badge.badge-blue {
+	background-color: #0072bc;
+	color: #ffffff;
+}
+
+.badge.badge-red {
+	background-color: #d42020;
+	color: #ffffff;
+}
+
+.login-page {
+	min-height: 100%;
+	background-color: #f7f7f7 !important;
+	color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.login-page .login-header {
+	padding-top: 40px !important;
+	padding-bottom: 40px !important;
+}
+
+.login-container .login-header {
+	background-color: #ffffff !important;
+}
+
+.login-container .login-header.login-caret:after {
+	border-top-color: #ffffff;
+  border-color: #FFFFFF transparent !important; 
+}
+
+.login-page .login-header .description {
+  color: rgb(157, 157, 157) !important;
+  font-family: "Helvetica Neue", Helvetica, "Noto Sans", sans-serif, Arial, sans-serif !important;
+  border: 0px solid rgba(157,157,157, 0.5);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.login-page .login-bottom-links .link {
+	color: #999999 !important;
+}
+
+.login-page .login-form .form-group .input-group {
+	background-color: #ffffff !important;
+	border-bottom-color: #ebebec !important;
+	border-left-color-value: #ebebec !important;
+	border-right-color-value: #ebebec !important;
+	border-top-color: #ebebec !important;
+}
+
+.login-page .login-form .form-group .input-group {
+	border-left-color: #ebebec !important;
+	border-right-color: #ebebec !important;
+}
+
+.logo-env .logo
+{
+  margin-top: 9%;
+  margin-bottom: 20px;
+}
+.links-list a
+{
+	color: #373e4a;
+}
+.links-list a:hover
+{
+	color: black;
+}
+.login-page .login-form .form-group .input-group .input-group-addon:after
+	{
+	background-color: #ebebec !important;
+}
+
+.login-page .login-form .form-group .input-group .form-control {
+	color: #51555d !important;
+	font-size: 15px;
+}
+
+.login-page .login-form .form-group .btn-login {
+	background-color: #4486f6 !important;
+	/*border-bottom-color: #ebebec !important;
+	border-left-color-value: #ebebec !important;
+	border-right-color-value: #ebebec !important;
+	border-top-color: #ebebec !important;
+	border-left-color: #ebebec !important;
+	border-right-color: #ebebec !important;
+	color: #51555d !important;*/
+	color:white;
+	border:0px solid #32986D;
+	white-space:normal!important;
+}
+
+ul.action-link
+{
+	padding:0;
+}
+.login-form p
+{
+	color:#999;
+	text-align: center;
+}
+.login-page .login-form .form-group .btn-login:hover {
+	opacity:0.8;
+	transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+
+.panel-body table thead tr th
+{
+	text-align: center;
+}
+.login-page .login-form .form-group.lockscreen-input .lockscreen-details h4 {
+    color: #51555d;
+}
+.panel-body table tbody tr td
+{
+   text-align: center;
+}
+.location-des 
+{
+    padding: 10px 25px 40px 25px;
+}
+.location-des h4
+{
+   font-size:18px;   
+}
+.location-des p
+{
+   font-size: 13px;
+   line-height: 17px;
+}
+.modal-body
+{
+   text-align: left;
+   margin-top: 20px;
+}
+.badge
+{
+	border-radius: 4px;
+	line-height: 1.2;
+	padding: 3px 8px;
+	margin: 1px;
+}
+
+.is-lockscreen .login-header {
+    padding-bottom: 60px !important;
+    padding-top: 30px !important;
+}
+
+.login-page .login-form .form-group.lockscreen-input .lockscreen-thumb img {
+	width:150px;
+	border: 5px solid #fff;
+	/*height:147px;*/
+}
+
+.is-lockscreen .login-bottom-links {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.search-box {
+	margin: 15px 0px 15px 0px
+}
+
+/* Preloader */
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* change if the mask should have another color then white */
+	z-index: 99999; /* makes sure it stays on top */
+}
+
+#preloader #status {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	/* centers the loading animation horizontally one the screen */
+	top: 50%; /* centers the loading animation vertically one the screen */
+	background-image: url(../images/ajax-loader-large.gif);
+	/* path to your loading animation */
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: -100px 0 0 -100px; /* is width and height divided by two */
+}
+
+.circle {
+	border-radius: 8px;
+	display: inline-block;
+	height: 13px;
+	width: 13px;
+	margin-left: 4px;
+}
+
+.circle_online {
+	background-color: #46a800;
+}
+
+.circle_offline {
+	background-color: #22292F;
+}
+
+.circle_notconnected {
+	background-color: #e34d4d;
+}
+
+.device-content {
+	min-height: 280px;
+}
+
+/*.page_loading_status_bar {
+	z-index:99999;
+	background:#FFF;
+}*/
+
+.page_loading_status_bar {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	height: 5px;
+	margin-bottom: 0px;
+}
+
+#mac-address {
+  text-transform: uppercase;
+}
+
+/* Device Style Start */
+
+.form-wizard-custome {
+	margin-top:0px;
+}
+
+#social_media_icon a {
+	padding: 0px 10px 0px 0px;
+}
+
+.form-wizard{ margin-top: 10px; }
+
+.social_icon{ font-size:21px; }
+
+.thumbnail>img {
+  margin-top:15px;
+	}
+	
+.tile-stats .num {	
+	font-size: 54px;
+	font-weight: 700;
+	}
+	
+h2, .h2 {
+font-weight: 700 !important;
+font-size: 32px !important;
+padding-bottom: 8px !important;
+}	
+
+.progress-bar-warning {
+  background-color: #000;
+  top:0;
+  }
+  
+.progress{
+display: block;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+  position: fixed;
+  }
+.btn-lg {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.33;
+} 
+
+.froala-element {
+   max-height:300px;
+}

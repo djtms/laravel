@@ -1,0 +1,130 @@
+.modal-backdrop {
+	z-index: 8;
+}
+
+#add_new_location {
+	z-index: 9;
+}
+
+#add_new_location .modal-header,#add_new_location .modal-footer {
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+
+#add_new_location .modal-body {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#add_new_location .modal-footer {
+	margin-top: 0px;
+}
+
+#add_new_location .modal-header .form-group,#add_new_location .modal-content .form-group
+	{
+	margin-bottom: 5px !important;
+}
+
+.form-wizard {
+	margin-top: 0px;
+}
+
+.form-horizontal .control-label {
+	text-align: left !important;
+	margin-bottom: 3px;
+	padding-top: 3px;
+}
+
+.location-des {
+	min-height: 250px;
+	position: relative;
+}
+
+.figre img {
+	height: auto;
+	width: 100% !important;
+}
+
+.assigned-bg {
+	margin-bottom: 2px;
+}
+
+@media ( max-width : 767px) {
+	.location_container {
+		max-width: 360px !important;
+		margin: 0 auto;
+	}
+}
+
+@media ( min-width : 768px) and (max-width: 990px) {
+	.location_container {
+		max-width: 700px !important;
+		margin: 0 auto;
+	}
+}
+
+@media ( min-width :992px) {
+	.figre img {
+		max-width: 184px !important;
+		height: 250px;
+	}
+}
+
+@media ( min-width :1200px) {
+	.extra-col {
+		width: 12.001% !important;
+	}
+	.extra-col-big {
+		width: 87.99% !important;
+	}
+	.figre img {
+		max-width: 235px !important;
+		height: 250px;
+	}
+}
+
+@media ( min-width :1280px) {
+	.figre img {
+		max-width: 258px !important;
+		height: 250px;
+	}
+}
+
+@media ( min-width :1366px) and (max-width:1420px) {
+	.location-des {
+		padding-right: 0px;
+	}
+	.figre {
+		padding-left: 0px;
+	}
+	.figre img {
+		min-width: 300px !important;
+		height: 100%;
+	}
+}
+
+@media ( min-width :1440px) {
+	.location-des {
+		min-height: 250px;
+	}
+	.figre img {
+		min-width: 304px !important;
+		height: 100%;
+	}
+}
+
+@media ( min-width : 1600px) {
+	.location-des {
+		min-height: 290px;
+	}
+	.figre img {
+		min-width: 350px !important;
+		height: 100%;
+	}
+	@media ( min-width : 1920px) {
+		.figre img {
+			min-width: 444px !important;
+			height: 315px;
+		}
+	}
+}

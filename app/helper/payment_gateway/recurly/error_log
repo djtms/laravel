@@ -1,0 +1,8 @@
+[17-Mar-2015 04:59:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/mywifi/public_html/libs/payment_gateway/recurly/index.php on line 80
+[17-Mar-2015 05:00:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/mywifi/public_html/libs/payment_gateway/recurly/index.php on line 80
+[17-Mar-2015 05:02:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/mywifi/public_html/libs/payment_gateway/recurly/index.php on line 80
+[17-Mar-2015 06:31:12 UTC] PHP Fatal error:  Class 'RecurlySubscription' not found in /home/mywifi/public_html/libs/payment_gateway/recurly/index.php on line 66
+[17-Mar-2015 06:34:03 UTC] PHP Fatal error:  Call to undefined method Recurly_Subscription::getSubscription() in /home/mywifi/public_html/libs/payment_gateway/recurly/index.php on line 66
+[17-Mar-2015 07:15:35 UTC] PHP Fatal error:  Cannot use object of type Recurly_Subscription as array in /home/mywifi/public_html/libs/payment_gateway/recurly/index.php on line 69
+[17-Mar-2015 07:25:26 UTC] PHP Fatal error:  Cannot use object of type DateTime as array in /home/mywifi/public_html/libs/payment_gateway/recurly/index.php on line 76
+[17-Mar-2015 08:37:15 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/mywifi/public_html/libs/payment_gateway/recurly/index.php on line 72

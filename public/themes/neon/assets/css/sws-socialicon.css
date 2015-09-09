@@ -1,0 +1,91 @@
+.facebook-button {
+	background-color:#3B5998;
+	-moz-border-radius:27px;
+	-webkit-border-radius:27px;
+	border-radius:27px;
+	border:1px solid #3B5998;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	padding:16px 76px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+}
+.facebook-button:hover {
+	background-color:#5cbf2a;
+}
+.facebook-button:active {
+	position:relative;
+	top:1px;
+}
+
+.twitter-button {
+	background-color:#55ACEE;
+	-moz-border-radius:27px;
+	-webkit-border-radius:27px;
+	border-radius:27px;
+	border:1px solid #55ACEE;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	padding:16px 76px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+}
+.twitter-button:hover {
+	background-color:#5cbf2a;
+}
+.twitter-button:active {
+	position:relative;
+	top:1px;
+}
+
+.googleplus-button {
+	background-color:#DC3724;
+	-moz-border-radius:27px;
+	-webkit-border-radius:27px;
+	border-radius:27px;
+	border:1px solid #DC3724;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	padding:16px 76px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+}
+.googleplus-button:hover {
+	background-color:#5cbf2a;
+}
+.googleplus-button:active {
+	position:relative;
+	top:1px;
+}
+
+.linkedin-button {
+	background-color:#489DC9;
+	-moz-border-radius:27px;
+	-webkit-border-radius:27px;
+	border-radius:27px;
+	border:1px solid #489DC9;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	padding:16px 76px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+}
+.linkedin-button:hover {
+	background-color:#5cbf2a;
+}
+.linkedin-button:active {
+	position:relative;
+	top:1px;
+}
